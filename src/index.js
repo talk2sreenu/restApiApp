@@ -19,6 +19,8 @@ app.get('/generateData', (req, res) =>{
     res.json({"userName" : userName,
         "status" : "Process completed"
     })
+
+    console.log('Log to see sucess response returned.', res.statusCode)
     
 })
 
